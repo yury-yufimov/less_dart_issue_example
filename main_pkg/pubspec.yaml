@@ -9,6 +9,8 @@ environment:
 
 dependencies:
   angular: ^5.3.0
+  styles_pkg:
+    path: ../styles_pkg
 
 dev_dependencies:
   angular_test: ^2.3.0
