@@ -1,7 +1,10 @@
 # main_pkg
 
-A web app that uses [AngularDart](https://webdev.dartlang.org/angular) and
-[AngularDart Components](https://webdev.dartlang.org/components).
+Example for issue of less_dart package
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+You should try to build application, for example, via webdev:
+
+```
+pub global activate webdev
+pub global run webdev serve
+```
