@@ -1,8 +1,13 @@
 @import (reference) "packages/styles_pkg/styles.less";
+@import (reference) "structure/component/component.less";
 
 @my-red: #fcc;
 
-.styled-text {
-  background: @my-red;
-  color: @my-green;
+:host {
+  .bordered-component();
+
+  .styled-text {
+    background: @my-red;
+    color: @my-green;
+  }
 }
