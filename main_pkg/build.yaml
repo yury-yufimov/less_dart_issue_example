@@ -1,0 +1,6 @@
+targets:
+  $default:
+    builders:
+      less_dart:
+        options:
+          entry_points: ['lib/app_component.less']
