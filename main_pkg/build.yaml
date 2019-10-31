@@ -3,4 +3,4 @@ targets:
     builders:
       less_dart:
         options:
-          entry_points: ['lib/app_component.less']
+          entry_points: ['lib/component_a.less']

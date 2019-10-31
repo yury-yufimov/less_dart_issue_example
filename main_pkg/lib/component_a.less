@@ -1,0 +1,14 @@
+@import (reference) "lib/structure/component/component.less";
+// relative import should be
+//@import (reference) "structure/component/component.less";
+
+@my-green: #6c6;
+
+:host {
+  .bordered-component();
+
+  .styled-text {
+    background: @my-green;
+    color: #fff;
+  }
+}
