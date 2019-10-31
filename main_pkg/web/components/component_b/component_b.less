@@ -1,0 +1,16 @@
+// relative import should be
+//@import (reference) "styles/filled.less";
+@import (reference) "web/components/component_b/styles/filled.less";
+
+// relative import should be
+//@import (reference) "../../../lib/structure/common/palette.less";
+@import (reference) "lib/structure/common/palette.less";
+
+:host {
+  .filled-component();
+
+  .styled-text {
+    background: @my-blue;
+    color: #fff;
+  }
+}
